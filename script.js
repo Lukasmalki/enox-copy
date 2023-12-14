@@ -6,3 +6,12 @@ const dateInterval = setInterval(() => {
     date.innerText = newDate.getFullYear() + '-' + (newDate.getMonth() +1) + '-' + newDate.getDate();
     time.innerText = newDate.getHours() + ':' + newDate.getMinutes();
 }, 100)
+
+
+const dropdownBtn = document.querySelector('.dropdown-button');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+    dropdownBtn.addEventListener('click', () => {
+        dropdownMenu.classList.toggle('show');
+
+    })
