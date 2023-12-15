@@ -261,7 +261,7 @@ body {
 
 .middle-right-sections {
     display: flex;
-    flex: 12;
+    flex: 11.5;
 }
 
 .top-buttons {
@@ -290,21 +290,44 @@ body {
 
 .top-buttons a {
     text-decoration: none;
-    margin: 0 25px 0 8px;
+    margin: 0 30px 0 8px;
     font-size: 13px;
     color: white;
 }
 
 .article-section {
-    border: 2px solid rgba(78, 78, 78, 0.726);;
+    border: 3px solid rgba(78, 78, 78, 0.582);
     border-radius: 15px;
-    flex: 4.5;
-    
+    flex: 4;
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 7px 2px 7px;
+}
+
+.article button {
+    width: 165px;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
 }
 
 .right-section {
     flex: 1;
     margin: 0 5px 0 5px;
-    border: 2px solid rgba(78, 78, 78, 0.726);
+    border: 3px solid rgba(78, 78, 78, 0.582);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section button {
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 7px 2px 7px;
+    color: white;
+    background: rgb(179, 85, 85);
 }
