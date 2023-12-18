@@ -234,6 +234,7 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .kort {
@@ -245,7 +246,7 @@ body {
 }
 
 .kontant {
-    background: linear-gradient(rgb(84, 153, 84), rgb(46, 109, 46));
+    background: linear-gradient(rgb(61, 127, 61), rgb(38, 96, 38));
 }
 
 .ångra {
@@ -303,15 +304,32 @@ body {
 
 .article {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 8px 7px 2px 7px;
+    margin: 0 7px 2px 7px;
 }
 
 .article button {
     width: 165px;
-    height: 65px;
+    height: 70px;
     border: none;
     border-radius: 5px;
+    margin-top: 6px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnrow1 {
+    background: linear-gradient(rgb(209, 132, 16), rgb(138, 90, 2));
+}
+
+.btnrow2 {
+    background: linear-gradient(rgb(61, 127, 61), rgb(38, 96, 38));
+}
+
+.btnrow3 {
+    background: linear-gradient(rgb(189, 64, 64), rgb(139, 39, 39));
 }
 
 .right-section {
