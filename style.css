@@ -11,15 +11,25 @@ body {
 }
 
 .enox-container {
-    background-image: url(background-pic.jpg), linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8));
-    background-blend-mode: saturation;
-    width: 1300px;
-    height: 750px;
     border: 50px solid rgb(0, 0, 0);
     border-radius: 20px;
+    width: 1300px;
+    height: 750px;
+    display: flex;
+    /* position: relative; */
+}
+
+.main {
+    background-image: url(background-pic.jpg), linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8));
+    background-blend-mode: saturation;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    position: relative;
+}
+
+.main.hide {
+    display: none;
 }
 
 .enox-container * {
@@ -284,7 +294,7 @@ button:active {
 
 .top-buttons div {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .top-buttons button {
